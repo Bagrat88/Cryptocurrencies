@@ -3,7 +3,7 @@ from config import keys, TOKEN
 from utils import ConvertionException, CryptoConverter
 
 
-bot = telebot.TeleBot('5503443197:AAEy8ytKO8-mbdUBD92lZv6sME6FgNWQmHw')
+bot = telebot.TeleBot('')
 
 
 @bot.message_handler(commands=['start', 'help'])
